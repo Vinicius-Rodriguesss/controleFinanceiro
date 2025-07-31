@@ -5,7 +5,7 @@ import Home from "./pages/Home"
 const App = () => {
   return (
       <>
-        <Header />
+        {/* <Header /> */}
         <Home />
         {/* <Footer /> */}
       </>
