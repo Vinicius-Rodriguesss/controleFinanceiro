@@ -6,21 +6,21 @@ const Home = () => {
   const gastosData = [
     {
       id: 1,
-      quemGastou: "Lorem",
-      descricao: "Lorem",
+      quemGastou: "FDSGHFGDSHFKJ",
+      descricao: "teste1",
       cartao: "Cartão Lorem",
-      diaPagamento: 30,
-      mesPagamento: "Janeiro",
-      valor: 250.00,
+      diaPagamento: 2,
+      mesPagamento: "agosto",
+      valor: 10000.00,
     },
      {
       id: 2,
-      quemGastou: "Lorem",
-      descricao: "Lorem",
+      quemGastou: "Cleber",
+      descricao: "tete2",
       cartao: "Cartão Lorem",
       diaPagamento: 30,
-      mesPagamento: "Janeiro",
-      valor: 250.00,
+      mesPagamento: "novembro",
+      valor: 23251.80,
     },
   ];
 
