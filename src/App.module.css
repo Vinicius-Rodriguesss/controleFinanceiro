@@ -1,0 +1,9 @@
+.Home {
+ margin-top: 15rem;
+}
+
+@media screen and (max-width: 992px) {
+ .Home {
+  margin-top: 10rem;
+ }
+}

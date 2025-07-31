@@ -1,7 +1,11 @@
 .header {
-  background: linear-gradient(135deg, #4e54c8, #8f94fb);
+  background: #0D6EFD;
   padding: 1.75rem 0;
   color: white;
+  height: 20rem;
+  position: absolute;
+  top: 0px;
+  width: 100%;
 }
 
 .container {
