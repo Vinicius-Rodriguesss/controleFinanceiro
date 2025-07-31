@@ -1,11 +1,11 @@
 .header {
-  background: #0D6EFD;
   padding: 1.75rem 0;
   color: white;
   height: 20rem;
   position: absolute;
   top: 0px;
   width: 100%;
+  text-align: left;
 }
 
 .container {
@@ -28,6 +28,12 @@
   margin-top: 0.5rem;
   opacity: 0.9;
   font-weight: 400;
+}
+
+@media screen and (max-width: 992px) {
+    .header{
+      height: 16rem;
+    }
 }
 
 /* Responsividade */
