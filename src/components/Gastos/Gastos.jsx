@@ -38,10 +38,10 @@ const Gastos = ({ gastosData }) => {
           {gastosData.map((gasto) => (
             <tr key={gasto.id}>
               <td>{gasto.id}</td>
-              <td>{gasto.quemGastou}</td>
-              <td>{gasto.descricao}</td>
+              <td>{gasto.nome}</td>
+              <td>{gasto.produto}</td>
               <td>{gasto.cartao}</td>
-              <td>{gasto.diaPagamento} {gasto.mesPagamento}</td>
+              <td>{gasto.dia} {gasto.mes}</td>
               <td>R$ {gasto.valor.toFixed(2)}</td>
               <td className="d-flex gap-2">
                 <button onClick={() => abrirModalEdicao(gasto)} className={styles.btn}>
